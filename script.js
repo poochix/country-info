@@ -22,14 +22,14 @@ button.addEventListener("click", () => {
       // );
 
       result.innerHTML = `
-                     <div class="img-wrapper">
-    <div class="img-data-wrapper">
+                     <div class="wrapper">
+    <div class="data-wrapper">
         <img src="${data[0].flags.svg}" " class=" flag-img">
         <h2>${data[0].name.common}</h2>
     </div>
 </div>
 
-<div class="info">
+
     <div class="wrapper">
         <div class="data-wrapper">
             <h4>Capital : </h4>
@@ -82,7 +82,7 @@ button.addEventListener("click", () => {
         </div>
     </div>
 
-</div>
+
 
  `;
     })
